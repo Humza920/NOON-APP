@@ -1,0 +1,508 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    margin: 0;
+    background-color: var(--ofwhite);
+}
+
+
+:root{
+
+    --yellow:#ffed14;
+    --white:#fcfbf4;
+    --grey: #808080;
+    --ofwhite:#f7f7fa;
+    --half-white:#f5f4f4;
+}
+
+
+
+
+/* Navbar styling started */
+
+.width-1{
+    width: 100%;
+}
+
+.bg-yellow{
+    background-color:var(--yellow);
+}
+
+input{
+    width:700px;
+    padding: 12px;
+    border: 0px;
+
+      
+}
+
+.fa-solid{
+    padding: 10px;
+    font-size: 20px;
+    color:var(--grey);
+}
+
+.fa-bars{
+
+    position: absolute;
+    left: 2;
+    display: none;
+}
+
+
+/* Navbar styling ended */
+
+
+/* Category styling started */
+
+.list-style{
+    list-style: none;
+}
+
+ul li{
+    padding:15px;
+}
+
+.bg-white{
+    background-color: var(--white);
+
+}
+ .category ul :hover{
+    color: var(--yellow);
+    background-color: #000;
+}
+
+
+
+
+
+
+
+/* Banner styling ended */
+
+
+
+
+
+/* Category styling started */
+
+
+
+/* crousel styling started */
+
+.width-3{
+    max-width: 80%;
+    display: block;
+}
+
+.width-4{
+    max-width: 20%;
+    display: block;
+}
+
+
+
+
+
+
+/* crousel styling ended */
+
+
+
+
+/* Featured images styling started */
+
+
+
+
+
+
+
+
+/* Featured images styling ended */
+
+
+/* more reason to shop styling started */
+
+
+
+
+/* more reason to shop styling started */
+
+.size{
+    width: 12rem;
+}
+
+.width25{
+    width:25%;
+}
+.width{
+    max-width:100%;
+    display: block;
+}
+
+.bg-color-grish{
+    background-color: var(--half-white);
+}
+
+
+.width-5{
+
+    width: 50%;
+
+}
+
+
+
+
+.bg-color-grish{
+    background-color: #f5f4f4;
+}
+
+
+.text-bold{
+    font-weight: bold;
+}
+
+.phone-deal{
+    background-color: var(--yellow);
+    color: #e42921;
+}
+
+.border-r{
+    border-radius: 6px;
+}
+
+.background{
+    position: relative;
+    background: rgb(252, 213, 213);
+    flex: 1 1 0%;
+    min-width: 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.imoge{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: rgb(245, 244, 244);
+}
+
+
+/* recomded styling started */
+
+
+.box{
+    height:600px;
+    width: 16.66%;
+    background-color: #f0f4fd;
+    
+    
+}
+
+.fa-star{
+    color: #00b027;
+    font-size: 10px;
+}
+
+.font-size{
+    font-size: 12px;
+}
+
+.text-green{
+    color: #00b027;
+}
+
+.text-orange{
+    color: #f9802c;
+}
+
+.text-red{
+    color: #ff0000;
+}
+
+.market-icon{
+    height: 16px;
+    width: auto;
+}
+
+
+
+
+/* recomded styling ended */
+
+
+
+/* Valentine store styling started */
+
+
+
+.bg-pink{
+    background-color: #ffede4;
+}
+
+.image-width{
+    width: 380px;
+}
+
+
+/* Valentine store styling ended */
+
+
+/* ad banner styling started */
+
+.width-100{
+    width: 100%;
+}
+
+/* ad banner styling ended */
+
+
+
+
+
+
+/* Trending deals electronics styling started */
+
+
+.view-btn{
+    padding: 7.5px 15px;
+    margin: 7.5px 0px 7.5px 15px;
+}
+
+/* Trending deals electronics styling ended */
+
+
+
+/* Deals only on moon styling started */
+
+
+.boxes{
+    border: 1px solid black;
+    width: 25%;
+    
+}
+
+.bg-color-blue{
+    background-color: #ddeffa;
+}
+.image-bg{
+    background-color: #fff;
+}
+.image-style{
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    height: 16px;
+}
+
+
+
+/* Deals only on moon styling started */
+
+
+
+.font-size2{
+    font-size: 14px;
+}
+
+
+
+
+/* footer styling statred */
+
+.list-style{
+    list-style: none;
+}
+
+.fa-brands{
+    font-size: 25px;
+    margin: 5px;
+    background-color: var(--yellow);
+    color: #3e4553;
+    padding: 10px;
+    border-radius: 40px;
+ }
+
+ .icons{
+    margin: 3px;
+ }
+ 
+ .bgd-color{
+    background-color: #e2e5f1;
+ }
+ 
+ .text-grey{
+    color: #7c87a4;
+ }
+ 
+ .flex-wrap{
+    flex-wrap: wrap;
+ }
+ 
+ .border{
+
+    border: 2px solid black;
+ }
+ .fixed{
+    position: fixed;
+ }
+ .respo{
+    max-width: 100%;
+   height: auto;
+ }
+ 
+
+/* footer styling ended */
+
+
+
+@media(max-width:768px){
+
+    .category ul li{
+        display: none;
+    }
+    .navigation{
+        display: none;
+    }
+
+   .fa-lock{
+
+    font-size: 10px;
+   }
+    .responsive{
+        display: none;
+    }
+
+    .fa-bars{
+        display: block;
+        color: #000;
+        text-align:right;
+    }
+
+    
+
+    .fa-lock{
+        width:7px;
+        height: auto;
+    }
+
+    .media-font{
+        font-size: 0.7rem;
+    }
+
+   
+     
+
+    
+          
+    }
+
+
+    @media(max-width:1100px){
+
+        .category ul li{
+            display: none;
+        }
+        .navigation{
+            display: none;
+        }
+    
+       .fa-lock{
+    
+        font-size: 10px;
+       }
+        .responsive{
+            display: none;
+        }
+    
+        .fa-lock{
+            width:7px;
+            height: auto;
+        }
+    
+        .media-font{
+            font-size: 0.7rem;
+        }
+
+        
+    .fa-bars{
+        display: block;
+        color: #000;
+        text-align:right;
+    }
+    
+       
+
+
+    }
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
